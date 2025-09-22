@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Life Cheat Codes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cheat-codes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .cheat-code {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cheat-code:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+        }
+
+        .cheat-code::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+        }
+
+        .cheat-number {
+            font-size: 0.9rem;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .cheat-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .cheat-description {
+            color: #4a5568;
+            font-size: 0.95rem;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+            padding: 2rem;
+            opacity: 0.8;
+        }
+
+        .category-divider {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 2rem 0 1rem 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .cheat-codes-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.6s ease forwards;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header fade-in">
+            <h1>30 Life Cheat Codes</h1>
+            <p>Simple strategies that no one tells you about - but everyone should know</p>
+        </div>
+
+        <div class="cheat-codes-grid">
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #1</div>
+                <div class="cheat-title">Wake up early</div>
+                <div class="cheat-description">More time, less distraction</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #2</div>
+                <div class="cheat-title">Make your bed</div>
+                <div class="cheat-description">Small wins set the tone</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #3</div>
+                <div class="cheat-title">Drink water first thing</div>
+                <div class="cheat-description">Hydration boosts energy</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #4</div>
+                <div class="cheat-title">Plan your day</div>
+                <div class="cheat-description">Avoid last-minute panic</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #5</div>
+                <div class="cheat-title">Use the 2-minute rule</div>
+                <div class="cheat-description">Do small tasks immediately</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #6</div>
+                <div class="cheat-title">Dress well</div>
+                <div class="cheat-description">Confidence starts with appearance</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #7</div>
+                <div class="cheat-title">Simplify</div>
+                <div class="cheat-description">Change your mood and others</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #8</div>
+                <div class="cheat-title">Learn to say no</div>
+                <div class="cheat-description">Protect your time and energy</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #9</div>
+                <div class="cheat-title">Carry cash</div>
+                <div class="cheat-description">Helps control spending</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #10</div>
+                <div class="cheat-title">Turn off notifications</div>
+                <div class="cheat-description">Avoid distractions</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #11</div>
+                <div class="cheat-title">Use alarms/reminders</div>
+                <div class="cheat-description">Stay on track</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #12</div>
+                <div class="cheat-title">Take deep breaths</div>
+                <div class="cheat-description">Calm your mind and body</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #13</div>
+                <div class="cheat-title">Write things down</div>
+                <div class="cheat-description">Memory isn't perfect</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #14</div>
+                <div class="cheat-title">Use "undo send"</div>
+                <div class="cheat-description">Saves you from regret</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #15</div>
+                <div class="cheat-title">Listen more than you speak</div>
+                <div class="cheat-description">Learn more, talk less</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #16</div>
+                <div class="cheat-title">Batch tasks</div>
+                <div class="cheat-description">Multitasking is a myth</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #17</div>
+                <div class="cheat-title">Move your body</div>
+                <div class="cheat-description">Walk, stretch, exercise</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #18</div>
+                <div class="cheat-title">Have a go-to outfit</div>
+                <div class="cheat-description">Saves decision fatigue</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #19</div>
+                <div class="cheat-title">Break big tasks into steps</div>
+                <div class="cheat-description">Easier to start</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #20</div>
+                <div class="cheat-title">Keep an emergency fund</div>
+                <div class="cheat-description">Life happens</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #21</div>
+                <div class="cheat-title">Read daily</div>
+                <div class="cheat-description">Knowledge compounds</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #22</div>
+                <div class="cheat-title">Keep snacks handy</div>
+                <div class="cheat-description">Avoid overeating</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #23</div>
+                <div class="cheat-title">Schedule social time</div>
+                <div class="cheat-description">Relationships matter</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #24</div>
+                <div class="cheat-title">Use "do not disturb" mode</div>
+                <div class="cheat-description">Guard your focus</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #25</div>
+                <div class="cheat-title">Learn basic first aid</div>
+                <div class="cheat-description">Instant mood boost</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #26</div>
+                <div class="cheat-title">Limit screen time before bed</div>
+                <div class="cheat-description">Sleep better</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #27</div>
+                <div class="cheat-title">Smile when answering the phone</div>
+                <div class="cheat-description">Makes you sound better</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #28</div>
+                <div class="cheat-title">Use people's names</div>
+                <div class="cheat-description">Builds connection fast</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #29</div>
+                <div class="cheat-title">Automate bills & savings</div>
+                <div class="cheat-description">Avoid temptation and stress</div>
+            </div>
+
+            <div class="cheat-code fade-in">
+                <div class="cheat-number">CHEAT CODE #30</div>
+                <div class="cheat-title">Practice gratitude daily</div>
+                <div class="cheat-description">Helps you sleep happier</div>
+            </div>
+        </div>
+
+        <div class="footer fade-in">
+            <p>Life is a game - these are the cheat codes to win it. 🎮</p>
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.3);">
+                <p style="font-weight: bold; margin-bottom: 0.5rem;">Built by Victory Hour Multimedia Inc.</p>
+                <p style="margin-bottom: 0.5rem;">🌐 www.victoryhourmedia.com | ✉️ info@victoryhourmedia.com</p>
+                <p style="font-style: italic;">We build brands that lead. From strategy to design to digital presence—your growth is our mission.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add staggered animation delays
+        const cards = document.querySelectorAll('.fade-in');
+        cards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+
+        // Add click interaction for fun
+        document.querySelectorAll('.cheat-code').forEach(card => {
+            card.addEventListener('click', function() {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+    </script>
+</body>
+</html>
